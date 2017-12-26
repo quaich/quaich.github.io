@@ -68,7 +68,7 @@ body {
   font-weight:400;
 
 }
-div.transbox {
+box {
   margin: 30px;
   background-color: #ffffff;
   border: 1px solid black;
