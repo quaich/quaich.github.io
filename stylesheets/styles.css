@@ -62,14 +62,12 @@ body {
   color:#727272;
   font-weight:400;
 }
-body{height:100%;
-   width:100%;
-   background-image:url(/assets/bg.gif);/*your background image*/
-   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
-   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
-   /*css hack for ie*/
-   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
-   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+body#background {
+background: url(‘assets/bg.gif’) no-repeat 50% 50% fixed;
+background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-webkit-background-size: cover;
 }
 
 h1, h2, h3, h4, h5, h6 {
