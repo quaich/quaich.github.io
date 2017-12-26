@@ -29,7 +29,7 @@ SOFTWARE.
 
 .pl-c1      /* constant, markup.raw, meta.diff.header, meta.module-reference, meta.property-name, support, support.constant, support.variable, variable.other.constant */,
 .pl-s .pl-v /* string variable */ {
-  color: #0086b3;
+  color: #ffffff;
 }
 
 .pl-e  /* entity */,
@@ -39,7 +39,7 @@ SOFTWARE.
 
 .pl-s .pl-s1 /* string source */,
 .pl-smi      /* storage.modifier.import, storage.modifier.package, storage.type.java, variable.other, variable.parameter.function */ {
-  color: #333;
+  color: #ffffff;
 }
 
 .pl-ent /* entity.name.tag */ {
@@ -99,7 +99,7 @@ SOFTWARE.
 }
 
 .pl-mb /* markup.bold */ {
-  color: #333;
+  color: #ffffff;
   font-weight: bold;
 }
 
