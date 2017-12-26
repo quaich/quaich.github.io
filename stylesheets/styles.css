@@ -1,5 +1,4 @@
 /* that's some good font right there if I say so myself I do say so that what im talking about*/
-
 @font-face {
   font-family: 'Noto Sans';
   font-weight: 400;
@@ -71,7 +70,7 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-  color:#b5b5b5;
+  color:#222;
   margin:0 0 20px;
 }
 
@@ -106,13 +105,13 @@ a:hover {
 
 a small {
   font-size:11px;
-  color:#b5b5b5;
+  color:#777;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#b5b5b5;
+  color:#777;
 }
 
 .wrapper {
@@ -129,7 +128,7 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#b5b5b5;
+  color:#333;
   font-size:12px;
 }
 
@@ -153,12 +152,12 @@ th, td {
 }
 
 dt {
-  color:#b5b5b5;
+  color:#444;
   font-weight:700;
 }
 
 th {
-  color:#b5b5b5;
+  color:#444;
 }
 
 img {
@@ -200,7 +199,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#b5b5b5;
+  color:#999;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -208,7 +207,7 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#b5b5b5;
+  color:#999;
 }
 
 header ul a:active {
@@ -216,7 +215,7 @@ header ul a:active {
 }
 
 strong {
-  color:#;
+  color:#222;
   font-weight:700;
 }
 
@@ -228,7 +227,7 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#b5b5b5;
+  color:#222;
 }
 
 section {
