@@ -39,7 +39,7 @@ SOFTWARE.
 
 .pl-s .pl-s1 /* string source */,
 .pl-smi      /* storage.modifier.import, storage.modifier.package, storage.type.java, variable.other, variable.parameter.function */ {
-  color: #333;
+  color: #b5b5b5;
 }
 
 .pl-ent /* entity.name.tag */ {
@@ -90,16 +90,16 @@ SOFTWARE.
 }
 
 .pl-mq /* markup.quote */ {
-  color: #008080;
+  color: #b5b5b5;
 }
 
 .pl-mi /* markup.italic */ {
-  color: #333;
+  color: #b5b5b5;
   font-style: italic;
 }
 
 .pl-mb /* markup.bold */ {
-  color: #333;
+  color: #b5b5b5;
   font-weight: bold;
 }
 
