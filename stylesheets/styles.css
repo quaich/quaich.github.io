@@ -56,7 +56,7 @@
 }
 
 body {
-  background: url("/assets/bg.gif") no-repeat center center fixed;
+  background-color: #002b36;
   opacity = 0.1
   -webkit-background-size: cover;
   -moz-background-size: cover;
